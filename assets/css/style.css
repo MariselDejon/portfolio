@@ -1,0 +1,171 @@
+    /* Comentarios en el estilo*/
+
+    /* Selector etiquetas h2*/
+    .body{
+        background-size:contain;
+        background-attachment: fixed;
+    }
+
+    /* Selector clase circular--square */
+    .circular--square {
+        border-radius: 50%;
+        display: block;
+        margin: auto; 
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bd-placeholder-img {
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sticky-container{
+        padding:0px;
+        margin:0px;
+        position:fixed;
+        right:-130px;
+        top:230px;
+        width:210px;
+        z-index: 1100;
+    }
+    .sticky li{
+        list-style-type:none;
+        background-color:rgba(203, 170, 255, 0.795);
+        height:43px;
+        padding:0px;
+        margin:0px 0px 1px 0px;
+        -webkit-transition:all 0.25s ease-in-out;
+        -moz-transition:all 0.25s ease-in-out;
+        -o-transition:all 0.25s ease-in-out;
+        transition:all 0.25s ease-in-out;
+        cursor:pointer;
+    }
+    .sticky li:hover{
+        margin-left:-115px;
+    }
+    .sticky li img{
+        float:left;
+        margin:5px 4px;
+        margin-right:5px;
+    }
+    .sticky li p{
+        padding-top:5px;
+        margin:0px;
+        line-height:16px;
+        font-size:11px;
+    }
+    .sticky li p a{
+        text-decoration:none;
+        text-shadow: rgba(0, 0, 0, 0.678) 3px 3px 4px;
+        color:rgb(255, 255, 255);
+        font-family: Helvetica, Arial;
+        font-style: oblique;
+        font-size: 13px;
+    }
+    .left {
+        padding-top: 10px;
+        margin-left: 0px;
+        float: left;
+        position: relative;
+        width: 45%;
+        height: auto;
+    }
+    .right {
+        padding-top: 10px;
+        position: relative;
+        float: left;
+        width: 20%;
+        height: auto;
+    }
+    /* Selector ID  */
+    #titulo-1 {
+        color:rgb(246, 227, 250);
+        font-family: Cambria;
+        font-style: normal;
+        font-size: 55px;
+        background-color: rgba(136, 100, 184, 0.219);
+        text-shadow: rgba(0, 0, 0, 0.473) 4px 4px 5px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #subtitulo-1 {
+        color: rgb(214, 184, 241); 
+        font-family: Cambria;
+        font-style: oblique;
+        font-size: 35px;
+        text-shadow: rgba(0, 0, 0, 0.466) 4px 4px 5px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #subtitulo-2 {
+        color: rgb(226, 205, 245);
+        font-family: Cambria;
+        font-style: oblique;
+        font-size: 24px;
+        text-shadow: rgba(0, 0, 0, 0.466) 4px 4px 5px;
+    }
+    #texto-descriptivo {
+        font-family: Helvetica;
+        font-size: 18px;
+        font-style: italic;
+        color: rgb(238, 238, 238);
+        text-shadow: rgba(0, 0, 0, 0.555) 2px 2px 3px;
+        text-align-last: left;
+        padding-right: 150px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: justify;
+        background-color:rgba(105, 93, 214, 0.473);
+        background-size: 15px;
+    }      
+    #subtitulo-3 {
+        color: rgb(226, 205, 245);
+        font-family: Cambria;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bolder;
+        text-shadow: rgba(0, 0, 0, 0.466) 4px 4px 5px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        clear: both;
+    } 
+    #lista--ordenada {
+        color: rgb(245, 234, 255);
+        font-family: Cambria;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bolder;
+        text-shadow: rgba(0, 0, 0, 0.418) 4px 4px 5px;
+        text-align: left;
+        padding-left: 20px;
+
+    }
+    #list1 {
+        color: rgb(230, 225, 255);
+        text-shadow: rgba(0, 0, 0, 0.473) 3px 3px 4px;
+        background-color: rgba(125, 91, 218, 0.808);
+        font-family: Helvetica;
+        font-size: 17px;
+        font-style: italic;
+        font-weight: 550;
+    }
+    ul{
+       list-style: none; 
+    }
+    #descrp-artist {
+        color: rgb(255, 255, 255);
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 13.5px;
+        text-shadow: rgba(0, 0, 0, 0.637) 3px 3px 4px;
+    }
+    #ol1 {
+        list-style: none;
+    }
+    #ol2 {
+        list-style: none;
+    }
