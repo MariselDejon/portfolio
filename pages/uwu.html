@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UwU</title>
+</head>
+<body bgcolor="black">
+    <img src="" id="imagen" style=" height: 600px; display: block; margin: auto;">
+<script>
+    var imagenes =new Array(
+       "../images/Nueva carpeta/1.jpg", "../images/Nueva carpeta/2.jpg", "../images/Nueva carpeta/3.jpg", "../images/Nueva carpeta/4.jpg", "../images/Nueva carpeta/5.jpg",
+       "../images/Nueva carpeta/6.jpg", "../images/Nueva carpeta/7.jpg", "../images/Nueva carpeta/8.jpg", "../images/Nueva carpeta/9.jpg", "../images/Nueva carpeta/10.jpg",
+       "../images/Nueva carpeta/11.jpg", "../images/Nueva carpeta/12.jpg", "../images/Nueva carpeta/13.jpg", "../images/Nueva carpeta/14.jpg", "../images/Nueva carpeta/15.jpg",
+       "../images/Nueva carpeta/16.jpg", "../images/Nueva carpeta/17.jpg", "../images/Nueva carpeta/18.jpg", "../images/Nueva carpeta/19.jpg", "../images/Nueva carpeta/20.jpg",
+       "../images/Nueva carpeta/21.jpg", "../images/Nueva carpeta/22.jpg", "../images/Nueva carpeta/23.jpg", "../images/Nueva carpeta/24.jpg", "../images/Nueva carpeta/25.jpg",
+       "../images/Nueva carpeta/26.jpg", "../images/Nueva carpeta/27.jpg", "../images/Nueva carpeta/28.jpg", "../images/Nueva carpeta/29.jpg", "../images/Nueva carpeta/30.jpg",
+       "../images/Nueva carpeta/31.jpg", "../images/Nueva carpeta/35.jpg", "../images/Nueva carpeta/36.jpg", "../images/Nueva carpeta/37.jpg", "../images/Nueva carpeta/38.jpg",
+       "../images/Nueva carpeta/39.jpg", "../images/Nueva carpeta/40.jpg", "../images/Nueva carpeta/41.jpg", "../images/Nueva carpeta/42.jpg", "../images/Nueva carpeta/43.jpg",
+       "../images/Nueva carpeta/44.jpg", "../images/Nueva carpeta/45.jpg", "../images/Nueva carpeta/46.jpg", "../images/Nueva carpeta/47.jpg", "../images/Nueva carpeta/48.jpg",
+       "../images/Nueva carpeta/50.jpg", "../images/Nueva carpeta/51.jpg", "../images/Nueva carpeta/52.jpg", "../images/Nueva carpeta/53.jpg",
+       "../images/Nueva carpeta/54.jpg", "../images/Nueva carpeta/55.jpg", "../images/Nueva carpeta/56.jpg", "../images/Nueva carpeta/57.jpg", "../images/Nueva carpeta/58.jpg",
+       "../images/Nueva carpeta/59.jpg", "../images/Nueva carpeta/60.jpg", "../images/Nueva carpeta/61.jpg", "../images/Nueva carpeta/62.jpg", "../images/Nueva carpeta/63.jpg",
+       "../images/Nueva carpeta/64.jpg", "../images/Nueva carpeta/65.jpg", "../images/Nueva carpeta/66.jpg", "../images/Nueva carpeta/67.jpg", "../images/Nueva carpeta/68.jpg",
+       "../images/Nueva carpeta/69.jpg", "../images/Nueva carpeta/70.jpg", "../images/Nueva carpeta/71.jpg", "../images/Nueva carpeta/72.jpg", "../images/Nueva carpeta/73.jpg",
+       "../images/Nueva carpeta/74.jpg", "../images/Nueva carpeta/75.jpg", "../images/Nueva carpeta/76.jpg", "../images/Nueva carpeta/77.jpg", "../images/Nueva carpeta/78.jpg",
+       "../images/Nueva carpeta/79.jpg", "../images/Nueva carpeta/80.jpg", "../images/Nueva carpeta/81.jpg", "../images/Nueva carpeta/82.jpg", "../images/Nueva carpeta/83.jpg",
+       "../images/Nueva carpeta/84.jpg", "../images/Nueva carpeta/85.jpg", "../images/Nueva carpeta/86.jpg", "../images/Nueva carpeta/87.jpg", "../images/Nueva carpeta/88.jpg",
+       "../images/Nueva carpeta/89.jpg", "../images/Nueva carpeta/90.jpg", "../images/Nueva carpeta/91.jpg", "../images/Nueva carpeta/92.jpg", "../images/Nueva carpeta/93.jpg",
+       "../images/Nueva carpeta/94.jpg", "../images/Nueva carpeta/95.jpg", "../images/Nueva carpeta/96.jpg", "../images/Nueva carpeta/97.jpg", "../images/Nueva carpeta/98.jpg",
+       "../images/Nueva carpeta/99.jpg", "../images/Nueva carpeta/100.jpg", "../images/Nueva carpeta/101.jpg", "../images/Nueva carpeta/102.jpg", "../images/Nueva carpeta/103.jpg",
+       "../images/Nueva carpeta/104.jpg", "../images/Nueva carpeta/105.jpg", "../images/Nueva carpeta/106.jpg", "../images/Nueva carpeta/107.jpg", "../images/Nueva carpeta/108.jpg",
+       "../images/Nueva carpeta/109.jpg", "../images/Nueva carpeta/110.jpg", "../images/Nueva carpeta/111.jpg", "../images/Nueva carpeta/112.jpg", "../images/Nueva carpeta/113.jpg",
+       "../images/Nueva carpeta/114.jpg", "../images/Nueva carpeta/115.jpg",     
+        
+    );
+  
+    function cambiarImagenes()
+    {
+        var index=Math.floor((Math.random()*imagenes.length));
+ 
+        document.getElementById("imagen").src=imagenes[index];
+    }
+ 
+    onload=function()
+    {
+        cambiarImagenes();
+ 
+        var intervalo = setInterval(cambiarImagenes,900);
+    }
+</script>
+</body>
+</html>

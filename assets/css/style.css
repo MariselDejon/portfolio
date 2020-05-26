@@ -169,3 +169,24 @@
     #ol2 {
         list-style: none;
     }
+
+    #UNRaf-Programacion1 {
+        color: rgb(230, 225, 255);
+        text-shadow: rgba(0, 0, 0, 0.473) 3px 3px 4px;
+        padding-left: 20px;
+        background-color: rgba(162, 112, 255, 0.651);
+        font-family: Cambria;
+        font-style: oblique;
+        font-size: 25px;
+    }
+
+    #lista-ejercicios {
+        padding-left: 30px;
+        color: rgb(144, 43, 226);
+        font-family: Helvetica;
+        font-size: 16px;
+        font-style: italic;
+        text-shadow:  rgba(0, 0, 0, 0.637) 3px 3px 4px;
+    }
+
+   

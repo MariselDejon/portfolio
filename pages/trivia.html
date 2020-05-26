@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/trivia.css">
+</head>
+<body class="body" background="../images/Backgrounds/backgroun-trivia.jpg">
+    <h1 id="titulo">10 preguntas de maquillaje, ¿conoces las respuestas?</h1>
+   <form id="form" name="myform" onsubmit="return score()">
+        <h3 id="pregunta">1) ¿Que es una beauty blender?</h3>
+        <input type="radio" name="p1" value="a"> a) Una crema hidratante<br>
+        <input type="radio" name="p1" value="b"> b) Un tipo de brocha para aplicar maquillaje<br>
+        <input type="radio" name="p1" value="c"> c) Una esponja para aplicar maquillaje<br>
+
+        <h3 id="pregunta">2). ¿Al maquillarse, que es lo primero que se debe hacer?</h3>
+        <input type="radio" name="p2" value="a"> a) Hidratar y preparar la piel<br>
+        <input type="radio" name="p2" value="b"> b) Aplicar base de maquillaje<br>
+        <input type="radio" name="p2" value="c"> c) Aplicar primer o prebase<br>
+            
+        <h3 id="pregunta">3). ¿En que consiste la técnica del "baking"?</h3>
+        <input type="radio" name="p3" value="a"> a) En dar calor a la base una vez aplicada, para fijarla<br>
+        <input type="radio" name="p3" value="b"> b) En calentar las cremas antes de aplicarlas, para incrementar sus beneficios<br>
+        <input type="radio" name="p3" value="c"> c) En aplicar bastante polvo traslúcido para fijar<br>
+
+        <h3 id="pregunta">4) <b></b>. ¿Qué subtono de corrector es el indicado para opacar rojeces?</h3>
+        <input type="radio" name="p4" value="a"> a) Verde<br>
+        <input type="radio" name="p4" value="b"> b) Violeta<br>
+        <input type="radio" name="p4" value="c"> c) Amarillo<br>
+
+        <h3 id="pregunta">5). ¿Cómo se llama la famosa técnica popularizada por Kim Kardashian?</h3>
+        <input type="radio" name="p5" value="a"> a) Draping<br>
+        <input type="radio" name="p5" value="b"> b) Contouring<br>
+        <input type="radio" name="p5" value="c"> c) Baking<br>
+
+        <h3 id="pregunta">6). ¿En qué consiste la técnica del "contouring"?</h3>
+        <input type="radio" name="p6" value="a"> a) En marcar y enfatizar facciones<br>
+        <input type="radio" name="p6" value="b"> b) En delinear los ojos para darles mayor énfasis <br>
+        <input type="radio" name="p6" value="c"> c) En engrosar los labios<br>
+
+        <h3 id="pregunta">7). ¿Cual de las siguientes marcas no es de maquillaje?</h3>
+        <input type="radio" name="p7" value="a"> a) Maybelline<br>
+        <input type="radio" name="p7" value="b"> b) Arper<br>
+        <input type="radio" name="p7" value="c"> c) MAC<br>
+
+        <h3 id="pregunta">8). ¿Cómo se llama la paleta de Jeffree Star, que ha generado <br> polémica por su temática relacionada con la muerte?</h3>
+        <input type="radio" name="p8" value="a"> a) Corpse<br>
+        <input type="radio" name="p8" value="b"> b) Decease<br>
+        <input type="radio" name="p8" value="c"> c) Cremated<br>
+        
+        <h3 id="pregunta">9). ¿Qué es "smokey eyes"?</h3>
+        <input type="radio" name="p9" value="a"> a) Una técnica de maquillaje de párpadosa<br>
+        <input type="radio" name="p9" value="b"> b) Una marca de cosméticos cuyo producto principal son paletas de sombras para ojos<br>
+        <input type="radio" name="p9" value="c"> c) Un tipo de brocha<br>
+
+        <h3 id="pregunta">10). ¿Qué es un "cut crease"?</h3>
+        <input type="radio" name="p10" value="a"> a) Una cirujia estética que consiste en rejuvenecer el rostro<br>
+        <input type="radio" name="p10" value="b"> b) Una técnica de maquillaje antiedad<br>
+        <input type="radio" name="p10" value="c"> c) Una técnica de maquillaje que consiste en marcar la cuenca del ojo<br>
+        <br><br>   
+        <input type="submit" id="corregir" value="¡Listo!">
+        <br>
+    </form>
+
+<script>
+    function score() {
+        var p1=document.myform.p1.value;
+        var p2=document.myform.p2.value;
+        var p3=document.myform.p3.value;
+        var p4=document.myform.p4.value;
+        var p5=document.myform.p5.value;
+        var p6=document.myform.p6.value;
+        var p7=document.myform.p7.value;
+        var p8=document.myform.p8.value;
+        var p9=document.myform.p9.value;
+        var p10=document.myform.p10.value;
+
+	    var contador = 0
+        var boton = document.getElementById("corregir");
+
+        if (p1 == "c") {
+            contador++;
+        }
+        if (p2 == "a") {
+            contador++;
+        }
+        if (p3 == "c") {
+            contador++;
+        }
+        if (p4 == "a") {
+            contador++;
+        }
+        if (p5 == "b") {
+            contador++;
+        }
+        if (p6 == "a") {
+            contador++;
+        }
+        if (p7 == "b") {
+            contador++;
+        }
+        if (p8 == "c") {
+            contador++;
+        }
+        if (p9 == "a") {
+            contador++;
+        }
+        if (p10 == "c") {
+            contador++;
+        }
+        alert("¡Acertaste " + contador + " preguntas de 10!");
+    }
+
+    boton.onclick = score;
+</script>
+</body>
+</html>

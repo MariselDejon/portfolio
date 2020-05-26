@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/formulario.css">
+    <title>Formulario</title>
+</head>
+<body class="body" background="../images/Backgrounds/background-formulario.jpg">
+    <form id="form" name="formulario" onsubmit="return finalizar()">
+        <h3 id="pregunta">Nombre</h3>
+        <input type="text" name="nombre" id="input"><br>
+
+        <h3 id="pregunta">Apellido</h3>
+        <input type="text" name="apellido" id="input"><br>
+
+        <h3 id="pregunta">Edad</h3>
+        <input type="text" name="edad" id="input"><br>
+
+        <h3 id="pregunta">Localidad</h3>
+        <input type="text" name="localidad" id="input"><br>
+
+        <h3 id="pregunta">Provincia</h3>
+        <input type="text" name="provincia" id="input"><br>
+
+        <h3 id="pregunta">Pais</h3>
+        <input type="text" name="pais" id="input"><br>
+
+        <h3 id="pregunta">Correo electronico</h3>
+        <input type="email" name="email" id="input"><br>
+        
+        <br><br>   
+        <input type="submit" id="escribir" value="Finalizar">
+        <br>
+    </form>
+
+<script>
+
+    function finalizar() {
+        var nombre=document.formulario.nombre;
+        var apellido=document.formulario.apellido;
+        var edad=document.formulario.edad;
+        var localidad=document.formulario.localidad;
+        var provincia=document.formulario.provincia;
+        var pais=document.formulario.pais;
+        var email=document.formulario.email;
+        
+        var boton = document.getElementById("escribir");
+
+        alert(nombre.value + " " + apellido.value + " tiene " + edad.value +
+        " años de edad. Vive en " + localidad.value + ", " + provincia.value + ", " + pais.value + "." 
+        + " Su dirección de correo electronico es: " + email.value);
+    }
+
+    boton.onclick = finalizar;
+
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.body{
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#titulo {
+    color:rgb(255, 255, 255);
+    border-radius: 50px;
+    font-family: Helvetica, Arial;
+    font-style: oblique;
+    font-size: 45px;
+    background-color: rgba(206, 134, 184, 0.452);
+    text-shadow: rgba(0, 0, 0, 0.473) 4px 4px 5px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#form {
+    padding: 50px;
+    border-radius: 50px;
+    font-family: Helvetica, arial;
+    font-size: large;
+    text-shadow:  rgba(0, 0, 0, 0.356) 3px 3px 4px;
+    background-color: rgba(255, 255, 255, 0.116)
+    
+}
+#pregunta {
+    font-style: oblique;
+    padding: 10px;
+    color: rgb(61, 60, 60);
+    background-color: rgba(235, 159, 72, 0.253);
+    border-radius: 50px;
+    height: max-content;
+    width: max-content
+}
+
+#corregir {
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: rgba(252, 119, 201, 0.473);
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px;
+    height: 60px;
+    width: 150px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
